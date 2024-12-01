@@ -1,0 +1,30 @@
+// ----------------------------------------------------- //
+// Main style
+// ---------------------------------------------------- //
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+
+.v-container {
+  @media only screen and (min-width: 1920px) {
+    max-width: 1326px !important;
+  }
+
+  @media only screen and (min-width: 1400px) {
+    max-width: 1326px !important;
+  }
+
+  @media only screen and (max-width: 992px) and (min-width: 762px) {
+    max-width: 100% !important;
+  }
+}

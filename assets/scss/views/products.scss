@@ -1,0 +1,22 @@
+//------------------------------------------------
+//  Products
+//------------------------------------------------
+$parent : 'product';
+
+.#{$parent} {
+    padding-bottom: 80px;
+    padding-top: 80px !important;
+    
+    &__contents {
+        border-radius: 12px;
+        overflow: hidden;
+        padding: 12px 10px;
+        background-color: transparent;
+        border: 1px solid #CBCBCB;
+    }
+
+    &__content {
+        border:0;
+        padding: 5px !important;
+    }
+}
